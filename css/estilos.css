@@ -9,10 +9,12 @@ body {
     background-image: url(../img/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header{
-    background-color: rgba(255, 255, 255, 0.897);
+    background-color: rgba(255, 255, 255, 0.911);
     text-align: center;
     width: 100%;
     float: left;
@@ -34,13 +36,6 @@ header{
     height: 80px;
 }
 
-
-nav{
-    background-color: rgba(255, 255, 255, 0.897);
-    float: left;
-    width: 100%;
-}
-
 ul{
     list-style-type: none;
     display: flex;
@@ -55,4 +50,9 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.911);
+    margin-top: 50px;
 }
