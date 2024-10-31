@@ -36,6 +36,18 @@ header{
     height: 80px;
 }
 
+@media (max-width: 768px) {
+    #esquerda, #direita, header {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+
+nav{
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     display: flex;
