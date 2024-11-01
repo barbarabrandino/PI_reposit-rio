@@ -20,17 +20,7 @@ header{
     float: left;
     height: 90px;
     font-family: "Kanit", sans-serif;
-    border-bottom: 2px solid black;
-}
-
-header::before {
-    content: "";
-    position: absolute;
-    left: 22%;
-    top: 0;
-    height: 12.5%; 
-    width: 2px;
-    background-color: black
+    border-bottom: 1px solid black;
 }
 
 #esquerda{
