@@ -1,0 +1,23 @@
+ <div class="card-container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 d-flex">
+              <div class="card">
+                <img class="card-img-top" src="img/mat-comp.png" alt="Imagem de capa do card sobre Mátematica da Computação">
+                <div class="card-body">
+                <p class="card-text">Matématica para Computação:
+                Lógica e Teoria dos Conjuntos, Matemática Discreta, Álgebra e Teoria dos Números, Probabilidade, Estatística e Cálculo.
+                </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 d-flex"></div>
+                <div class="card">
+                  <img class="card-img-top" src="#" alt="Imagem de capa do card">
+                  <div class="card-body">
+                   <p class="card-text">Álgebra linear: 
+                   </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
