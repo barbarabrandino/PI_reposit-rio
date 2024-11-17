@@ -1,6 +1,3 @@
-/* Footer */ 
-/* Footer */ 
-
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
 
 section { 
@@ -19,6 +16,8 @@ section .section-title {
 #footer { 
     margin-top: 40px;
     background: rgba(255, 255, 255, 0.911) !important; 
+    position: absolute;
+    height: 900lh;
 } 
 
 #footer h5{ 
@@ -90,5 +89,6 @@ section .section-title {
     border-left: transparent; 
     padding-bottom: 0px; 
     margin-bottom: 10px; 
+    position: absolute;
 } 
 }
