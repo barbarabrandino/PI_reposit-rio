@@ -96,7 +96,6 @@ input[type="submit"]{
     background-color: rgb(247, 197, 105);
     border: 1px solid rgb(197, 149, 60);
     padding: 5px;
-    width: 7%;
     font-family: "Niramit", sans-serif;
     border-radius: 7px;
 }
@@ -164,4 +163,12 @@ html {
 
 .row a:hover{
     color: rgb(163, 106, 0);
+}
+
+@media (max-width: 600px) {
+    .botao-enviar {
+      width: 100px; /* O botão ocupa toda a largura disponível em telas pequenas */
+      height: 50px; /* Ajusta a altura do botão */
+      font-size: 18px;
+    }
 }
