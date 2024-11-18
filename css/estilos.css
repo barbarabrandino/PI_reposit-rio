@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    text-align: justify;
 }
 
 header{
@@ -90,6 +91,47 @@ li {
 #comentario:focus {
     border-color: rgb(197, 149, 60);
     outline: none;
+}
+
+#mercado img{
+    width: 80%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 768px) {
+    #mercado img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #mercado img {
+        width: 100%;
+    }
+}
+
+
+#fatec img {
+    width: 55%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;    
+    margin-bottom: 15px; 
+}
+
+@media (max-width: 768px) {
+    #fatec img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #fatec img {
+        width: 100%;
+    }
 }
 
 input[type="submit"]{
